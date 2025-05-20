@@ -1,6 +1,7 @@
 # SubBrute
 
 A fast and efficient subdomain scanner built in Rust.
+Notice: I'm working on the content escaping because it's scanning too fast.
 
 ## Features
 
