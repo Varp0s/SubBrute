@@ -1,0 +1,9 @@
+version: '3'
+services:
+  subbrute:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/output
+    command: -d example.com -w /app/test-list.txt -t 50 -o json

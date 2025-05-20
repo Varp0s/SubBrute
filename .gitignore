@@ -1,0 +1,33 @@
+# Rust build artifacts
+/target/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.new
+
+# Temporary files
+temp_*.rs
+
+# Generated documentation
+/doc/
+
+# Log files
+*.log
+
+# Local configuration files
+Cargo.lock
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Custom environment variables
+.env
+
+# Local test files
+test*.txt
