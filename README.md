@@ -42,16 +42,6 @@ docker run --rm -v $(pwd):/output subbrute -d example.com -w /app/wordlists/comm
 docker-compose up
 ```
 
-For Windows users, a PowerShell script is provided for convenience:
-
-```powershell
-# Run with default settings
-.\docker-run.ps1
-
-# Run with custom domain and wordlist
-.\docker-run.ps1 example.com /app/wordlists/common.txt 75 json
-```
-
 ## Usage
 
 ```bash
